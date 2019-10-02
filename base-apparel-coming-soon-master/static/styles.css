@@ -1,6 +1,6 @@
 
 body{
-    font-family: Josefin Sans;
+    font-family: 'Reem Kufi', sans-serif;
 }
 .landing{
     /* background: url(/base-apparel-coming-soon-master/static/images/bg-pattern-desktop.svg)no-repeat center center fixed;
@@ -50,13 +50,16 @@ body{
     text-align: justify;
     transform:  translateY(50%) translateX(50%);
     flex-direction: column;
-    width:400px;
+    width:420px;
     margin-top:-50px;
+}
+.centered-text h1{
+    font-size : 60px;
 }
 .brand{
   display: flex;
   justify-content: center;
-  margin-left: -270px;
+  margin-left: -250px;
   margin-top:50px;
 }
 .form{margin-top: 30px;}
@@ -78,6 +81,8 @@ button{
     height: 55px;
     background:  linear-gradient(135deg, #F8BFBF 27.07%, #EE8C8C 40%);
     border-radius: 55px;
+    border: none;
+    position: relative;
 }
 .arrow{
     color:white;
